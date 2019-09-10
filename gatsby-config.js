@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `FrancisCPD`,
+    title: `Francisross Soares de Oliveira`,
+    position: `Solution Developer`,
     description: `Um blog sobre desenvolvimento, tecnologia e viagens`,
     author: `@franciscpd`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
