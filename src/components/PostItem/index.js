@@ -13,7 +13,7 @@ const PostItem = ({
   description,
 }) => {
   return (
-    <S.PostItemLink to={`/${slug}`}>
+    <S.PostItemLink to={slug}>
       <S.PostItemWrapper>
         <S.PostItemTag background={background}>{category}</S.PostItemTag>
         <S.PostItemInfo>
