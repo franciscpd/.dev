@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import ReactDisqusComments from "react-disqus-comments"
 
-import * as S from "./styled"
+import * as S from "./styles"
 
 const Comments = ({ url, title }) => {
   const completeURL = `https://franciscpd.dev${url}`
