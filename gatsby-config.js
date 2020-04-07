@@ -8,6 +8,7 @@ module.exports = {
     position: `Solution Developer`,
     description: `Um blog sobre desenvolvimento, tecnologia e viagens`,
     author: `@franciscpd`,
+    siteUrl: `https://franciscpd.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

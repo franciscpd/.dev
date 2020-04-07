@@ -10,7 +10,7 @@ import * as S from "../components/Post/styles"
 
 const BlogPost = ({ data, pageContext }) => {
   const {
-    frontmatter: { title, date, description },
+    frontmatter: { title, date, description, image },
     timeToRead,
     html,
     fields: { slug },
@@ -20,7 +20,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={title} />
+      <SEO title={title} description={description} image={image} />
       <S.PostHeader>
         <S.PostDate>
           {date} • {timeToRead} min de leitura
@@ -47,6 +47,7 @@ export const query = graphql`
         title
         description
         date(locale: "pt-BR", formatString: "DD [de] MMMM [de] YYYY")
+        image
       }
       timeToRead
       html
