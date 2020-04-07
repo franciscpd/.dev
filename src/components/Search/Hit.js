@@ -19,7 +19,7 @@ const Hit = ({
     description={description}
     category={category}
     background={background}
-    timeToRead={timeToRead}
+    timeToRead={timeToRead.toString()}
   />
 )
 
