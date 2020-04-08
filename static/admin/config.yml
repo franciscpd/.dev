@@ -2,7 +2,7 @@ backend:
   name: github
   repo: franciscpd/.dev
   branch: master
-  site_domain: https://franciscpd.dev/
+  site_domain: franciscpd.dev/
 
 # logo_url: https://your-site.com/images/logo.svg
 
